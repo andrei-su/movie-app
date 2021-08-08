@@ -25,13 +25,13 @@ export const Wrapper = styled.div`
 
 export const Content = styled.div`
     padding: 20px;
-    max-with: var(--maxWidth);
+    max-width: var(--maxWidth);
     margin: 0 auto;
 `;
 
 export const Text = styled.div`
     z-index: 100;
-    max0width: 700px;
+    max-width: 700px;
     position: absoulte;
     bottom: 40px;
     margin-right: 20px;
