@@ -26,7 +26,7 @@ class Home extends Component {
         searchTerm: '',
         isLoadingMore: false,
         loading: false,
-        error: false,
+        error: false
     }
     fetchMovies = async (page, searchTerm = "") => {
         try {
