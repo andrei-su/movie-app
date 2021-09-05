@@ -12,7 +12,8 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
 
-  const [_user, setUser] = useContext(Context);
+  // eslint-disable-next-line no-unused-vars
+  const [user, setUser] = useContext(Context);
   const navigate = useNavigate();
 
   const handleSubmit = async () => {
