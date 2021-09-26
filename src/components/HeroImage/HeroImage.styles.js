@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
         url(${({ image }) => image}), var(--darkGrey);
     background-size: 100%, cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
     position: relative;
     animation: animateHeroImage 1s;
 
@@ -40,6 +40,7 @@ export const Text = styled.div`
 
     h1 {
         font-size: var(--fontSuperBig);
+        padding-left: 10px;
 
         @media screen and (max-width: 720px) {
             font-size: var(--fontBig);
@@ -48,6 +49,9 @@ export const Text = styled.div`
     
     p {
         font-size: var(--fontMed);
+        background: rgba(1, 0, 0, 0.5);
+        border-radius: 20px;
+        padding: 10px;
 
         @media screen and (max-width: 720px) {
             font-size: var(--fontSmall);
