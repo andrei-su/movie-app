@@ -3,8 +3,8 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
     color: var(--white);
     background: var(--darkGrey);
-    border-radius: 10px;
-    padding: 0 20px;
+    border-radius: 15px;
+    padding: 5px;
     text-align: center;
 
     h3 {
@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
 export const Image = styled.img`
     display: block;
     width: 100%;
-    height: 200px;
+    height: auto;
     object-fit: cover;
     border-radius: 15px;
 `;
