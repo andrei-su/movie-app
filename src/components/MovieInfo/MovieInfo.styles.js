@@ -65,9 +65,18 @@ export const Text = styled.div`
         }
     }
 
+`;
+
+export const Title = styled.div`
+    display: flex;
+    align-items: baseline;
     h1 {
         @media screen and (max-width: 768px) {
             font-size: var(--fontBig);
         }
+    }
+    p {
+        font-size: x-large;
+        padding-left: 10px;
     }
 `;

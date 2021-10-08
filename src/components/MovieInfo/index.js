@@ -9,7 +9,7 @@ import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
 // Image
 import NoImage from "../../images/no_image.jpg";
 // Styles
-import { Content, Text, Wrapper } from "./MovieInfo.styles";
+import { Content, Text, Title, Wrapper } from "./MovieInfo.styles";
 // Context
 import { Context } from "../../context";
 
@@ -33,7 +33,10 @@ const MovieInfo = ({ movie }) => {
           clickable={false}
         />
         <Text>
-          <h1>{movie.title}</h1>
+          <Title>
+            <h1>{movie.title}</h1>
+            {movie.tagline && <p> - {movie.tagline}</p>}
+          </Title>
           <h3>PLOT</h3>
           <p>{movie.overview}</p>
 
