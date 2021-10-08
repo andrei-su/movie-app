@@ -1,21 +1,28 @@
 import { useState } from "react";
+// Components
+import Button from "../Button";
+// Styles
+import { Slider, Wrapper } from "./Rate.styles";
+
 
 const Rate = ({ callback }) => {
   const [value, setValue] = useState(5);
   return (
-    <div>
-      <input
-        type="range"
-        min="1"
-        max="10"
-        value={value}
-        onChange={(e) => setValue(e.currentTarget.value)}
-      />
-      {value}
+    <Wrapper>
+      <Slider>
+        <input
+          type="range"
+          min="1"
+          max="10"
+          value={value}
+          onChange={(e) => setValue(e.currentTarget.value)}
+        />
+        <p className='rate__value'>{value}</p>
+      </Slider>
       <p>
-        <button onClick={() => callback(value)}>Rate</button>
+        <Button text='Rate' callback={() => callback(value)} />
       </p>
-    </div>
+    </Wrapper>
   );
 };
 
