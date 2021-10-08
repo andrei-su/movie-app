@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
         min-width: 90px;
         height: 40px;
         font-size: 20px;
+        ;
     }
     p > button:hover {
         background: var(--white);
