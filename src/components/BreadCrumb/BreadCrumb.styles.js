@@ -14,16 +14,23 @@ export const Content = styled.div`
     display: flex;
     width: 100%;
     max-width: var(--maxWidth);
+    align-items: center;
     padding: 0 20px;
 
     a {
+        display: flex;
         text-decoration: none;
     }
     
+    a > .MuiSvgIcon-root {
+        color: white;
+        align-self: center;
+    }
+
     span {
         font-size: var(--fontMed);
         color: var(--white);
-        padding-right: 10px;
+        padding-left: 10px;
 
         @media screen and (max-width: 768px) {
             font-size: var(--fontSmall);
