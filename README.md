@@ -9,12 +9,15 @@ and displays a list of popular movies 🎥 and information about each individual
 information is displayed in a new page after clicking on the poster, from the grid, 
 corresponding to that specific movie. The app makes the use of modern 
 **Functional components** and **React hooks**, and it uses **styled components** 💅 
-for handling the styles. The project is deployed on **Netlify**, and it integrates 
-a **CI/CD** pipeline for automatic inegration and automatic deployment to Netlify 
-for ease of development. The deployment checks run when creating a pull request
-or when commiting directly to the *main* branch. The project contains a branch called 
-*class-components* which represents, as the name suggests, a version of the project 
-written with the *"classical"* **React class-components**. 
+for handling the styles. The project uses the **React Context API** for storing the 
+user in a global state accessible for all the components that are part of the created 
+context. The application also uses the **React Router** for managing the routes inside of
+the application. The project is deployed on **Netlify**, and it integrates a **CI/CD** 
+pipeline for automatic inegration and automatic deployment to Netlify for ease of 
+development. The deployment checks run when creating a pull requestor when commiting 
+directly to the *main* branch. The project contains a branch called *class-components* 
+which represents, as the name suggests, a version of the project written with the 
+*"classical"* **React class-components**. 
 
 # Demo
 
