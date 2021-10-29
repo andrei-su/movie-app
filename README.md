@@ -50,7 +50,7 @@ https://movie-app9.netlify.app/
 * Styled components &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img align='center' alt="Styled components" width="100px" src="./images/s.png"/>
 </h1> 
 
-# Galery
+# Gallery
 
 [<img alt="Main cover React Movie App" width="200px" src="./images/i1.png"/>](./GALLERY.md)
 
