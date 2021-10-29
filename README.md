@@ -19,11 +19,17 @@ directly to the *main* branch. The project contains a branch called *class-compo
 which represents, as the name suggests, a version of the project written with the 
 *"classical"* **React class-components**. 
 
+<br>
+
 # Demo
 
-The project is hosted at:
+The project is online:
 
-https://movie-app9.netlify.app/
+<h2>
+
+[LIVE DEMO HERE ](https://movie-app9.netlify.app/)
+
+<br>
 
 # Features
 
@@ -40,19 +46,24 @@ https://movie-app9.netlify.app/
 * Hover effects on movie posters buttons  
 * Responsive design for mobile devices 📱
 
-## Technologies used :
 <br>
-<h1> 
+
+# Technologies used :
+<br>
+<h2> 
 
 * React &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img align='center' alt="React" width="100px" src="./images/r.png"/>
 * The Movie Database API  <img align='center' alt="The Movie Database API" width="100px" src="./images/tmdb.png"/>
 * Netlify &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img align='center' alt="Netlify" width="100px" src="./images/n.jpg"/>
 * Styled components &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img align='center' alt="Styled components" width="100px" src="./images/s.png"/>
-</h1> 
+
+<br>
 
 # Gallery
 
 [<img alt="Main cover React Movie App" width="200px" src="./images/i1.png"/>](./GALLERY.md)
+
+<br>
 
 # CI/CD
 
@@ -76,6 +87,8 @@ Now when creating a pull request on the main branch or when commiting directly o
 ![Update Rate styles #4 pending](/images/c3.png)
 
 ![Update Rate styles #4 success](/images/c4.png)
+
+<br>
 
 # To run the project locally
 
