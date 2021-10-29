@@ -25,7 +25,7 @@ which represents, as the name suggests, a version of the project written with th
 
 The project is online:
 
-<h2>
+<h3>
 
 [LIVE DEMO HERE ](https://movie-app9.netlify.app/)
 
