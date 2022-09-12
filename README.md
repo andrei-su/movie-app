@@ -61,6 +61,8 @@ The project is online:
 
 # Gallery
 
+Click the image bellow to access the Gallery
+
 [<img alt="Main cover React Movie App" width="200px" src="./images/i1.png"/>](./GALLERY.md)
 
 <br>
